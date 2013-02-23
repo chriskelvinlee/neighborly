@@ -31,6 +31,8 @@ TIME_ZONE = 'America/Chicago'
 LANGUAGE_CODE = 'en-us'
 
 SITE_ID = 1
+FACEBOOK_APP_ID = '348129738630517'
+FACEBOOK_APP_SECRET = '78506110db9459fbd5b4c341c7400de8'
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
@@ -117,6 +119,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
+    'neighbors',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
