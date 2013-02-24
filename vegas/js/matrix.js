@@ -5,15 +5,15 @@
     "Caesars Palace",
     " Circus Circus",
     "Mandalay Bay",
-    "Ogden",
+    "Ogden - 150 Las Vegas Blvd N",
   ];
 
   var destinations = [
     "Lake Mead",
     "Red Rock",
     "Fremont Street Experience",
-    "Work in Progress - 6th and Bridger",
     "City Hall",
+    "WIP - 317 S 6th Street",
   ];
 
   var query = {
