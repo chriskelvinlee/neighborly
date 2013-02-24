@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <hr class="space">
+    <title>Christopher K. Lee</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection">
+
+
+ <!-- Matrix -->
+<link rel="stylesheet" href="css/matrix.css" type="text/css">
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="js/matrix.js"></script> 
+    
+  </head>
+ 
+
+<header>
+<div class="span-4">
+      <table class="span-3-5 prepend-0" cellspacing=0>
+<tr><td>
+  <img src="http://www.virtumundo.com/images/spacer.gif"
+height=30 width=1>
+</td></tr>
+    
+<tr><td bgcolor=#e5ecf9><img src="http://www.virtumundo.com/images/spacer.gif"
+height=15 width=1>
+<a class="none" href="/"><b>Home</b></a>
+</td></tr>
+
+
+<tr><td bgcolor=#b4bfd1><img src="http://www.virtumundo.com/images/spacer.gif"
+height=15 width=1>
+<a class="none" href="interwebs.html"><b>Vegas</b></a>
+</td></tr>
+
+<tr><td bgcolor=#e5ecf9><img src="http://www.virtumundo.com/images/spacer.gif"
+height=15 width=1>
+<a class="none" href="about.html"><b>About</b></a>
+</td></tr>
+
+<tr><td>
+<li class="member">
+<a class="membership" href="https://twitter.com/DowntownProjLV" target="_blank" title="View Christopher's profile on Twitter" site_name="Twitter">​<div class="icon"> <img src="img/twitter.png" alt="twitter"></div>@DTP</a>
+</li>
+
+<li class="member">
+<a class="membership" href="http://www.quora.com/Downtown-Project" target="_blank" title="View DTP's profile on Quora" site_name="Quora">​<div class="icon"> <img src="img/quora.png" alt="quora"></div>Quora</a>
+</li>
+
+<li class="member">
+<a class="membership" href="https://github.com/chriskelvinlee/neighborly" target="_blank" title="View DTP's profile on Github" site_name="Github">​<div class="icon"> <img src="img/github.png" alt="github"></div>Github</a>
+</li>
+
+</tr></td>
+</table>   
+</div>
+</header>
+
+
+
+
+  <body onload="initialize()">
+    <div class="container">
+    <div class="span-12">
+
+      <h1>VEGAS BY VEGAS</h1>
+      <hr>
+
+      <div id="map"></div>
+  <div id="controls">
+    <select id="mode" onChange="updateMode()">
+      <option value="driving">Driving</option>
+      <option value="walking" selected="selected">Walking</option>
+    </select><br/>
+    <select id="units" onChange="updateUnits()">
+      <option value="km">Kilometers</option>
+      <option value="mi" selected="selected">Miles</option>
+    </select>
+  </div>
+  <table id="matrix"></table>
+</div>
+
+  
+
+      
+      <hr class="tight">        
+      <h5>© mmxi ckl</h5>
+      </div>      
+    </div>
+  </body>
+</html>
+
+
