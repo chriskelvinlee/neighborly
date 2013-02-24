@@ -4,15 +4,15 @@
     "Bellagio",
     "Caesars Palace",
     " Circus Circus",
-    "Las Vegas Hilton",
     "Mandalay Bay",
+    "Ogden",
   ];
 
   var destinations = [
     "Lake Mead",
     "Red Rock",
     "Fremont Street Experience",
-    "Work in Progress - 6th Street",
+    "Work in Progress - 6th and Bridger",
     "City Hall",
   ];
 
