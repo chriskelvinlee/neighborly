@@ -31,8 +31,6 @@ TIME_ZONE = 'America/Chicago'
 LANGUAGE_CODE = 'en-us'
 
 SITE_ID = 1
-FACEBOOK_APP_ID = '348129738630517'
-FACEBOOK_APP_SECRET = '78506110db9459fbd5b4c341c7400de8'
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
@@ -69,7 +67,6 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    '/home/Django-1.4.2/neighborly/neighbors/static/'
 )
 
 # List of finder classes that know how to find static files in
@@ -88,15 +85,6 @@ TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
 #     'django.template.loaders.eggs.Loader',
-)
-
-TEMPLATE_CONTEXT_PROCESSORS = (
-    'django.core.context_processors.debug',
-    'django.core.context_processors.i18n',
-    'django.core.context_processors.media',
-    'django.core.context_processors.static',
-    'django.contrib.auth.context_processors.auth',
-    'django.contrib.messages.context_processors.messages',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -118,8 +106,7 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    '/home/adrian/Django-1.4.2/neighborly/neighbors/templates',
-    '/home/ryan/Documents/Workspace/neighborly/neighborly/neighbors/templates'
+    '/home/adrian/Django-1.4.2/neighborly/neighbors/templates'
 )
 
 INSTALLED_APPS = (
@@ -130,7 +117,6 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
-    'neighbors',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
