@@ -71,21 +71,40 @@
 
   <body>
 
-    <div class="container-narrow">
+    <div class="container-narrow"><!-- /container -->
 
-     <input id="favor-text" type="text" />
-     <button id="favor-button" type="submit" >Submit</button>
+    <form action="http:localhost:8000/broadcast" method="POST">
+      First name: <input type="text" name="fname"><br>
+      Last name: <input type="text" name="lname"><br>
+      Zipcode: <input type="text" name="zipcode"><br>
+      Phone number: <input type="text" name="phone"><br>
+      Item: <input type="text" name="item"><br>
+      <input type="submit" value="Submit">
+    </form>
 
-    </div> <!-- /container -->
-
+    </div>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="{{STATIC_URL}}jquery.js"></script>
+    <script src="../template_files/bootstrap-transition.js"></script>
+    <script src="../template_files/bootstrap-alert.js"></script>
+    <script src="../template_files/bootstrap-modal.js"></script>
+    <script src="../template_files/bootstrap-dropdown.js"></script>
+    <script src="../template_files/bootstrap-scrollspy.js"></script>
+    <script src="../template_files/bootstrap-tab.js"></script>
+    <script src="../template_files/bootstrap-tooltip.js"></script>
+    <script src="../template_files/bootstrap-popover.js"></script>
+    <script src="../template_files/bootstrap-button.js"></script>
+    <script src="../template_files/bootstrap-collapse.js"></script>
+    <script src="../template_files/bootstrap-carousel.js"></script>
+    <script src="../template_files/bootstrap-typeahead.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         $('#favor-button').click(function(e) {
           e.preventDefault();
-
+          alert("Jquery is working");
           user_id = '1';
           item = $('#favor-text').val();
 
@@ -96,19 +115,6 @@
         })
       })
     </script>
-    <script src="./template_files/jquery.js"></script>
-    <script src="./template_files/bootstrap-transition.js"></script>
-    <script src="./template_files/bootstrap-alert.js"></script>
-    <script src="./template_files/bootstrap-modal.js"></script>
-    <script src="./template_files/bootstrap-dropdown.js"></script>
-    <script src="./template_files/bootstrap-scrollspy.js"></script>
-    <script src="./template_files/bootstrap-tab.js"></script>
-    <script src="./template_files/bootstrap-tooltip.js"></script>
-    <script src="./template_files/bootstrap-popover.js"></script>
-    <script src="./template_files/bootstrap-button.js"></script>
-    <script src="./template_files/bootstrap-collapse.js"></script>
-    <script src="./template_files/bootstrap-carousel.js"></script>
-    <script src="./template_files/bootstrap-typeahead.js"></script>
 
   
 
